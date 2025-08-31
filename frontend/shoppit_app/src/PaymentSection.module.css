@@ -1,0 +1,93 @@
+.cardContainer {
+  background-color: var(--bg-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.upiButton {
+  background-color: #28a745;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.upiButton:hover {
+  background-color: #218838;
+}
+
+.qrBox {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem;
+}
+
+.qrImage {
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.upiIdText {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.otherButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.otherButton {
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+/* 🌙 Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .cardContainer {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+    border: 1px solid #444;
+  }
+
+  .qrBox {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+  }
+
+  .upiIdText {
+    color: #ccc;
+  }
+
+  .otherButton {
+    background-color: #2e2e2e;
+    color: #eee;
+    border: 1px solid #444;
+  }
+
+  .upiButton {
+    background-color: #34d399;
+  }
+
+  .upiButton:hover {
+    background-color: #059669;
+  }
+}

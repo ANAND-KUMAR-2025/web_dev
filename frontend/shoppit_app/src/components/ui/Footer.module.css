@@ -1,0 +1,12 @@
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2) rotate(10deg);
+  color: #FFD700;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

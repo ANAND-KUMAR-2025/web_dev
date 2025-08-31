@@ -1,0 +1,30 @@
+.nav-custom {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  position: relative;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-custom:hover {
+  color: #6050DC;
+}
+
+.nav-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #6050DC;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-custom:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

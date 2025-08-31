@@ -1,0 +1,56 @@
+/* product/ProductPage.css */
+
+h4 {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+}
+
+ul li::marker {
+  color: green;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.zoom-img {
+  transition: transform 0.3s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+}
+
+ul li::marker {
+  color: green;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.product-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
